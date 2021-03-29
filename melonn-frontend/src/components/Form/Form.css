@@ -1,0 +1,79 @@
+.btn__container {
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #1D1547;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    transition: background-color .5s ease;
+    margin-bottom: 20px;
+}
+
+.btn__container:hover {
+    background-color: #11e481;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.btn__product {
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #11e481;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.select__container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin-top: 20px;
+    border: 0; 
+    border-top: 1px solid lightgray
+}
+
+.input__style {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input__container {
+    color: #000;
+    font-size: 15px;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.label {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    display: block;
+}
+
+.select {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 1rem;
+}

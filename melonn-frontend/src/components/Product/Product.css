@@ -1,0 +1,33 @@
+.card__container {
+    width: 90%;
+    margin-top: 1em;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__body > h4 {
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card__body > p {
+    text-align: start;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+
+.card__body > p > span {
+    color: rgb(179, 2, 2);
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.container {
+    max-width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-areas:
+    "img img form form products ";
+    height: 100vh;
+}
+
+.img__container {
+    grid-area: img;
+    display: flex;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(29,21,71,1) 35%, rgba(33,255,150,1) 100%);
+}
+
+.form__container {
+    grid-area: form;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products__container {
+    grid-area: products;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__container > h2 {
+    margin-top: 2.2em;
+    font-family: 'Roboto';
+}
+
+.products__container > h3 {
+    margin-top: 1em;
+    font-family: 'Roboto';
+    color: rgb(168, 168, 168);
+}
+
+.image {
+    max-width: 100%;
+}

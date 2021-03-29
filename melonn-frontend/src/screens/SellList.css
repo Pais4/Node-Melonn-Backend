@@ -1,0 +1,27 @@
+header {
+    background-color: #1D1547;
+}
+
+header > h1 {
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    font-family: 'Roboto';
+}
+
+.return__container {
+    display: flex;
+    margin: 20px;
+    flex-direction: row-reverse;
+}
+
+.move__btn {
+    background: #1D1547;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px;
+}
